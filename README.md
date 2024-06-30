@@ -17,7 +17,7 @@ pnpm add @kurumi30/typewriter-ts
 yarn add @kurumi30/typewriter-ts
 ```
 
-## Exemplos
+## Exemplo
 
 ```html
 <!-- No HTML -->
@@ -27,9 +27,9 @@ yarn add @kurumi30/typewriter-ts
 ```typescript
 // No JavaScript ou TypeScript
 
-import Typewriter from 'typewriter-ts'
+import Typewriter from '@kurumi30/typewriter-ts'
 // ou se você estiver usando CommonJS:
-// const Typewriter = require('typewriter-ts')
+// const Typewriter = require('@kurumi30/typewriter-ts')
 
 const test = document.querySelector('#test')
 const typewriter = new Typewriter(test, {

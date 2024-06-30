@@ -8,13 +8,13 @@
 
 ```bash
 # npm
-npm install typewriter-ts
+npm install @kurumi30/typewriter-ts
 
 # pnpm
-pnpm add typewriter-ts
+pnpm add @kurumi30/typewriter-ts
 
 # yarn
-yarn add typewriter-ts
+yarn add @kurumi30/typewriter-ts
 ```
 
 ## Exemplos

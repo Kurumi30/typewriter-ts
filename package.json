@@ -1,0 +1,27 @@
+{
+  "name": "typewriter-ts",
+  "version": "1.0.0",
+  "description": "Uma biblioteca de animação de digitação usando TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc --declaration"
+  },
+  "keywords": [
+    "typewriter",
+    "typescript",
+    "nodejs",
+    "javascript",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kurumi30/typewriter-ts"
+  },
+  "author": "Kurumi30",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  }
+}

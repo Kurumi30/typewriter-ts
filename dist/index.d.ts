@@ -5,7 +5,8 @@ export default class Typewriter implements ITypewriter {
     private loop;
     private typingSpeed;
     private deletingSpeed;
-    constructor(parent: HTMLElement, { loop, typingSpeed, deletingSpeed }?: ITypewriterOptions);
+    private cursorColor;
+    constructor(parent: HTMLElement, { loop, typingSpeed, deletingSpeed, cursorColor }?: ITypewriterOptions);
     private addToQueue;
     private injectCursorStyle;
     private updateCursor;

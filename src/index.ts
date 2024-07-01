@@ -6,18 +6,21 @@ export default class Typewriter implements ITypewriter {
   private loop: boolean
   private typingSpeed: number
   private deletingSpeed: number
+  private cursorColor: string
 
   constructor(
     parent: HTMLElement,
     {
       loop = false,
       typingSpeed = 50,
-      deletingSpeed = 50
+      deletingSpeed = 50,
+      cursorColor = 'black'
     }: ITypewriterOptions = {}
   ) {
     this.loop = loop
     this.typingSpeed = typingSpeed
     this.deletingSpeed = deletingSpeed
+    this.cursorColor = cursorColor
     this.element = document.createElement('div')
 
     parent.append(this.element)
@@ -36,7 +39,7 @@ export default class Typewriter implements ITypewriter {
       style.id = styleId
       style.innerText = `
       .cursor {
-        border-right: 2px solid black;
+        border-right: 2px solid ${this.cursorColor};
         animation: blink 0.5s step-end infinite;
       }
         
@@ -46,7 +49,7 @@ export default class Typewriter implements ITypewriter {
         }
 
         50% {
-          border-color: black;
+          border-color: ${this.cursorColor};
         }
       }`
 
@@ -125,9 +128,7 @@ export default class Typewriter implements ITypewriter {
   }
 
   public pauseFor(duration: number) {
-    this.addToQueue(resolve => {
-      setTimeout(resolve, duration)
-    })
+    this.addToQueue(resolve => setTimeout(resolve, duration))
 
     return this
   }

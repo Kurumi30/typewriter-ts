@@ -2,6 +2,9 @@ import Typewriter from '.';
 /**
  * Represents the options for the typewriter effect.
  */
+/**
+ * Represents the options for the typewriter effect.
+ */
 export interface ITypewriterOptions {
     /**
      * Specifies whether the typewriter effect should loop or not.
@@ -15,6 +18,10 @@ export interface ITypewriterOptions {
      * Specifies the deleting speed in milliseconds.
      */
     deletingSpeed?: number;
+    /**
+     * Specifies the color of the cursor.
+     */
+    cursorColor?: string;
 }
 /**
  * Represents a typewriter object.

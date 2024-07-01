@@ -1,10 +1,10 @@
 # Typewriter-ts
 <div align="center">
-[![Npm package version](https://badgen.net/npm/v/@kurumi30/typewriter-ts)](https://www.npmjs.com/package/@kurumi30/typewriter-ts)
-[![Npm package total downloads](https://badgen.net/npm/dt/@kurumi30/typewriter-ts)](https://npmjs.com/package/@kurumi30/typewriter-ts)
-[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=@kurumi30/typewriter-ts&query=$.install.pretty&label=install%20size)](https://packagephobia.com/result?p=%40kurumi30%2Ftypewriter-ts)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@kurumi30/typewriter-ts)](https://bundlephobia.com/package/https://bundlephobia.com/package/@kurumi30/typewriter-ts@latest)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![Npm package version](https://badgen.net/npm/v/@kurumi30/typewriter-ts)
+![Npm package total downloads](https://badgen.net/npm/dt/@kurumi30/typewriter-ts)
+![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=@kurumi30/typewriter-ts&query=$.install.pretty&label=install%20size)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@kurumi30/typewriter-ts)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 </div>
 
 - Uma simples animação de digitação para você colocar nos seus projetos frontend 🙂

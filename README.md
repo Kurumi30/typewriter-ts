@@ -1,11 +1,10 @@
 # Typewriter-ts
-<div align="center">
+
 ![Npm package version](https://badgen.net/npm/v/@kurumi30/typewriter-ts)
 ![Npm package total downloads](https://badgen.net/npm/dt/@kurumi30/typewriter-ts)
 ![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=@kurumi30/typewriter-ts&query=$.install.pretty&label=install%20size)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@kurumi30/typewriter-ts)
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
-</div>
 
 - Uma simples animação de digitação para você colocar nos seus projetos frontend 🙂
 - Leve e fácil de usar 🚀

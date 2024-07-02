@@ -8,7 +8,7 @@
 
 - Uma simples animação de digitação para você colocar nos seus projetos frontend 🙂
 - Leve e fácil de usar 🚀
-- Feito apenas com TypeScript
+- Feito apenas com <img src="https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF" align="center">
 
 ## Instalação
 
@@ -42,14 +42,15 @@ const typewriter = new Typewriter(test, {
   loop: true,
   typingSpeed: 70,
   deletingSpeed: 50,
+  cursorColor: 'rgb(255, 0, 0)' // suporta qualquer formato (hex, rgb, etc)
 })
 
 typewriter
-  .typeString("Hello World!")
+  .typeString('Hello World!')
   .pauseFor(1000)
   .deleteChars(6)
   .pauseFor(1000)
-  .typeString("Typewriter-ts")
+  .typeString('Typewriter-ts')
   .pauseFor(1000)
   .deleteAll(10)
   .start()
@@ -62,6 +63,7 @@ new Typewriter(element: HTMLElement, {
   loop: boolean,
   typingSpeed: number,
   deletingSpeed: number,
+  cursorColor: string,
 })
 ```
 
@@ -71,6 +73,7 @@ new Typewriter(element: HTMLElement, {
 | `loop`          | Se a animação deve repetir ou não.    | `false`| Não         |
 | `typingSpeed`   | Velocidade de digitação.              | `50`   | Não         |
 | `deletingSpeed` | Velocidade para apagar.               | `50`   | Não         |
+| `cursorColor`   | Cor do cursor.                        | `black`| Não         |
 
 ## Métodos
 
@@ -84,7 +87,7 @@ new Typewriter(element: HTMLElement, {
 
 ## Créditos
 
-- Canal do Youtube [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
+- <img src="https://img.shields.io/badge/YouTube-red" align="center"> Canal do Youtube [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
 
 ## Contribuição
 

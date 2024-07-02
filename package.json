@@ -1,6 +1,6 @@
 {
   "name": "@kurumi30/typewriter-ts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Uma biblioteca de animação de digitação usando TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

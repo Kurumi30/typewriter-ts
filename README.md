@@ -4,6 +4,7 @@
 ![Npm package total downloads](https://badgen.net/npm/dt/@kurumi30/typewriter-ts)
 ![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=@kurumi30/typewriter-ts&query=$.install.pretty&label=install%20size)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@kurumi30/typewriter-ts)
+![JSDelivr CDN](https://data.jsdelivr.com/v1/package/gh/Kurumi30/typewriter-ts/badge?style=rounded)
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
 - Uma simples animação de digitação para você colocar nos seus projetos frontend 🙂
@@ -55,6 +56,28 @@ typewriter
   .deleteAll(10)
   .start()
 ```
+
+Disponível também no [jsDelivr](https://www.jsdelivr.com/package/npm/@kurumi30/typewriter-ts)
+
+```html
+<!-- No HTML -->
+<div id="test"></div>
+
+<!-- É importante colocar type="module"! -->
+<script src="seu-arquivo.js" type="module"></script>
+```
+
+```js
+// seu-arquivo.js
+
+import typewriter from 'https://cdn.jsdelivr.net/npm/@kurumi30/typewriter-ts@1.0.4/+esm'
+
+const test = document.querySelector('#test')
+// o resto do código é o mesmo...
+```
+
+> [!IMPORTANT]
+> No momento não funciona com CommonJS, apenas com ESM.
 
 ## Parâmetros
 
